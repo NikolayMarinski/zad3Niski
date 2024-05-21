@@ -45,8 +45,8 @@ public class Main {
             e.printStackTrace();
         }
 
-        for(Product p : polledElements){
-            out.println(p+ " ");
+        for(int i=0;i<10;i++){
+            out.println(polledElements.get(i) + " ");
         }
 
 
